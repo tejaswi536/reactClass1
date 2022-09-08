@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>lets say...</h1>
+    <div>
+        This is inside of div
+        <span><b>This is span</b></span>
+        <hr/>
+        <img src="path" alt="hjhj" width="50px" height="50px"></img>
+        <p><strong>this is strong</strong>This para is inside div 
+        <span><em>Inside para</em></span></p>
+       
+    </div>
+    <span>This is below div</span>
+    <form action="redirect.html" method="GET">
+        <label for="fname"> First name</label><br/>
+        <input type="text" name="fname" id="fname"  placeholder="first name"/><br/>
+        <label for="lname"> Last name</label><br/>
+        <input type="text" name="lname" id="lname" placeholder="last name" required></input><br/>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required/>
+        <label for="salary">Salary</label>
+        <input type="number" name="salary" id="salary" min="10" max="1000" required/>
+        <label for="bday">Birth day</label>
+        <input type="date" name="bday" id="bday"/>
+        <div>
+        Favourite Color
+        <label>Red</label>
+        <input type="checkbox" name="red" id="red"/>
+        <label for="blue">Blue</label>
+        <input type="checkbox" name="blue" id="blue"/>
+        </div>
+        <div>
+            Gender
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male"/>
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female"/>
+            </div>
+       <div >
+           <label for="color">Eye color</label>
+           <select name="color" id="color" multiple>
+               <option value="brown">Brown</option>
+               <option label="black" value="black"></option>
+           </select>
+       </div>
+       <label for="randomtext">randomtext</label>
+       <textarea id="randomtext"></textarea>
+        <button type="reset">Reset</button>
+        <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>

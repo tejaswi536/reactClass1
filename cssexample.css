@@ -1,0 +1,18 @@
+.parent{
+ background-color: blue;
+ height: 200vh;
+
+}
+.one{
+ background-color: green;
+ 
+}
+.two{
+    background-color: red; 
+    position: sticky;
+    top: 20px;
+}
+.three{
+    background-color: pink;
+    padding: 20px;
+}
